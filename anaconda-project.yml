@@ -1,0 +1,20 @@
+name: todd-talks
+
+commands:
+  lab:
+    unix: jupyter lab --no-browser --debug
+    windows: jupyter lab --no-browser --debug
+
+env_specs:
+  default:
+    channels:
+      - https://conda.anaconda.org/conda-forge
+    packages:
+      - ipydrawio-export
+      - jupyterlab >=3,<4
+      - jupyterlab-markup
+      - markdown
+      - pandas
+      - python >=3.8,<3.9.0a0
+      - tabulate
+      
