@@ -14,6 +14,7 @@ env_specs:
       - jupyterlab >=3,<4
       - jupyterlab-markup
       - markdown
+      - matplotlib
       - pandas
       - python >=3.8,<3.9.0a0
       - tabulate
